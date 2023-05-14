@@ -1,0 +1,33 @@
+﻿@host = https://localhost:7090
+@exampleBookTitle = New Book 200
+@id = 19
+
+### get all books
+GET {{host}}/api/books HTTP/1.1
+Content-Type: application/json
+
+### get specific book
+GET {{host}}/api/books/{{id}} HTTP/1.1
+Content-Type: application/json
+
+### inserting a new book
+POST {{host}}/api/books HTTP/1.1
+content-type: application/json
+
+{
+    "title": "{{exampleBookTitle}}",
+    "launchYear": 2023,
+    "description": "Test description",
+    "price": 100.00
+}
+
+### updating a book
+PUT {{host}}/api/books/{{id}} HTTP/1.1
+content-type: application/json
+
+{
+    "title": "New Book 2",
+    "launchYear": 2023,
+    "description": "Test description",
+    "price": 100.00
+}
