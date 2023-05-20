@@ -1,4 +1,4 @@
-# 📺 Requests HTTP direto no Visual Studio com novo suporte a arquivos .http
+# 📺 Requests HTTP direto no Visual Studio com novo suporte a arquivos .http 🚀
 
 Neste vídeo, mergulhamos no inovador suporte a arquivos .http no Visual Studio. Este é um recurso poderoso que pode tornar nosso processo de desenvolvimento de APIs mais rápido e eficiente do que nunca!
 
